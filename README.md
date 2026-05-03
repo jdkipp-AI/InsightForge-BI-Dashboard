@@ -11,11 +11,11 @@ InsightForge allows users to interact with business data using natural language.
 *   **Knowledge Base:** Automated data aggregation and context generation for LLMs.
 
 ## Dashboard Preview
-![Dashboard View](InsightForge%20Chart.png)
+![Dashboard View](Dashboard_Preview.png)
 *Visualizing Sales vs. Satisfaction performance.*
 
 ## AI Interaction
-![AI Chatbot](InsightForge%20Chatbot.png)
+![AI Chatbot](AI_Interaction.png)
 *The RAG system identifying the "Widget A vs. Widget D" quality gap.*
 
 ## Tech Stack
