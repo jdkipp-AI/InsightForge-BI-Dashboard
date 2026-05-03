@@ -18,7 +18,7 @@ InsightForge allows users to interact with business data using natural language.
 ![AI Chatbot](InsightForge%20Chatbot.png)
 *The RAG system identifying the "Widget A vs. Widget D" quality gap.*
 
-## 🛠️ Tech Stack
+## Tech Stack
 *   **Environment:** Conda (Python 3.12)
 *   **Logic:** LangChain, OpenAI API
 *   **Data:** Pandas, Matplotlib, Seaborn
