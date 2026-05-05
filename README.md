@@ -21,70 +21,69 @@ creating a unified analytics experience.
 
 ## Features
 
-- **Interactive BI Dashboard** — Visualize business performance metrics and trends through an
-  intuitive Streamlit interface.
-- **Conversational AI Assistant** — Ask natural-language questions about the dataset using a
-  LangChain-powered assistant integrated with OpenAI.
-- **Retrieval-Augmented Generation (RAG)** — Improves response relevance by supplying the model
-  with retrieved business context before generating answers.
-- **Business-Focused Insights** — Designed to highlight meaningful operational patterns, such as
-  sales performance, customer satisfaction, and product quality relationships.
-- **Unified Analytics Experience** — Combines structured dashboard exploration with AI-driven
-  question answering in a single application.
+- **Interactive BI Dashboard** — Visualize business performance metrics and trends through an intuitive Streamlit interface.
+- **Conversational AI Assistant** — Ask natural-language questions about the dataset using a LangChain-powered assistant integrated with OpenAI.
+- **Retrieval-Augmented Generation (RAG)** — Improves response relevance by supplying the model with retrieved business context before generating answers.
+- **Business-Focused Insights** — Designed to highlight meaningful operational patterns, such as sales performance, customer satisfaction, and product quality relationships.
+- **Unified Analytics Experience** — Combines structured dashboard exploration with AI-driven question answering in a single application.
 
 ---
 
 ## Dashboard Preview
 
-> *Example dashboard view showing business performance and customer satisfaction trends.*
+![Dashboard Preview](InsightForce%20Chart.png)
+
+*Example dashboard view showing business performance and customer satisfaction trends.*
 
 ---
 
 ## AI Assistant Preview
 
-> *Example of the AI assistant identifying a potential quality gap between products.*
+![AI Assistant Preview](InsightForce%20Chatbot.png)
+
+*Example of the AI assistant identifying a potential quality gap between products.*
 
 ---
 
 ## Tech Stack
 
 |
- Category                  
+ Category                 
 |
  Technology                  
 |
 |
----------------------------
+--------------------------
 |
 -----------------------------
 |
 |
- Programming Language      
+ Programming Language     
 |
  Python                      
 |
 |
- Frontend / App Framework  
+ Frontend / App Framework 
 |
  Streamlit                   
 |
 |
- AI / LLM Framework        
+ AI / LLM Framework       
 |
  LangChain                   
 |
 |
- LLM Provider              
+ LLM Provider             
 |
  OpenAI API                  
 |
 |
- Data Tools                
+ Data Tools               
 |
  Pandas, Matplotlib, Seaborn 
 |
 |
- Environment Management    
+ Environment Management   
 |
  Conda                       
 |
@@ -117,32 +116,41 @@ In this project, I:
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/jdkipp-AI/InsightForge-BI-Dashboard.git
-cd InsightForge-BI-Dashboard
-2. Install Dependencies
-bash
-pip install -r requirements.txt
-3. Set Your OpenAI API Key
-PowerShell:
+    git clone https://github.com/jdkipp-AI/InsightForge-BI-Dashboard.git
+    cd InsightForge-BI-Dashboard
 
-powershell
-$env:OPENAI_API_KEY="your_key_here"
-Mac/Linux:
+### 2. Install Dependencies
 
-bash
-export OPENAI_API_KEY="your_key_here"
-4. Run the Application
-bash
-streamlit run dashboard.py
-Future Enhancements
-Add support for additional datasets and business domains
-Improve prompt design and response grounding
-Expand dashboard filters and interactive controls
-Strengthen evaluation of AI-generated business insights
-Improve scalability and modularity of the application architecture
-Why This Project Matters
+    pip install -r requirements.txt
+
+### 3. Set Your OpenAI API Key
+
+**PowerShell:**
+
+    $env:OPENAI_API_KEY="your_key_here"
+
+**Mac/Linux:**
+
+    export OPENAI_API_KEY="your_key_here"
+
+### 4. Run the Application
+
+    streamlit run dashboard.py
+
+---
+
+## Future Enhancements
+
+- Add support for additional datasets and business domains
+- Improve prompt design and response grounding
+- Expand dashboard filters and interactive controls
+- Strengthen evaluation of AI-generated business insights
+- Improve scalability and modularity of the application architecture
+
+---
+
+## Why This Project Matters
+
 InsightForge reflects the growing role of generative AI in analytics and decision support.
 This project was created as part of an applied AI portfolio and highlights an interest in
 building practical, real-world AI solutions.
----
