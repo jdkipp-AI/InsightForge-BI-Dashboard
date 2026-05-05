@@ -1,78 +1,98 @@
-```md
+markdown
 # InsightForge BI Dashboard
 
-InsightForge is an AI-powered business intelligence dashboard that combines traditional data visualization with a Retrieval-Augmented Generation (RAG) assistant. The project is designed to help users explore business performance data through both charts and natural language interaction.
+InsightForge BI Dashboard is an AI-powered business intelligence application that combines interactive data visualization with conversational analytics. Built with Streamlit, LangChain, and OpenAI, the project demonstrates how users can explore business data through both traditional dashboard views and natural-language questions.
 
-## Overview
+## Project Summary
 
-This project demonstrates how AI can enhance business intelligence workflows by allowing users to ask questions about data in plain language. In addition to visualizing trends through a dashboard, InsightForge uses a RAG-based assistant to identify patterns, summarize findings, and support deeper exploration of business metrics.
+This project showcases how generative AI can enhance business intelligence workflows by making data more accessible, interactive, and actionable. In addition to visualizing performance metrics, InsightForge enables users to ask questions about the data and receive context-aware responses supported by retrieval-based processing.
 
-For example, the system can help surface insights such as possible relationships between sales performance and customer satisfaction that may not be obvious from static charts alone.
+The goal is to bridge the gap between static reporting and intelligent decision support by creating a unified analytics experience.
 
-## Key Features
+## Features
 
-- **AI Assistant:** Ask questions about the business data using a LangChain-powered assistant connected to OpenAI models.
-- **Interactive Dashboard:** Explore performance trends through Streamlit-based visualizations.
-- **RAG Workflow:** Uses retrieved business context to support more grounded AI responses.
-- **Business Insight Focus:** Combines analytics and natural language interaction in a practical BI use case.
+- **Interactive BI Dashboard**  
+  Visualize business performance metrics and trends through an intuitive Streamlit interface.
+
+- **Conversational AI Assistant**  
+  Ask natural-language questions about the dataset using a LangChain-powered assistant integrated with OpenAI.
+
+- **Retrieval-Augmented Generation (RAG)**  
+  Improves response relevance by supplying the model with retrieved business context before generating answers.
+
+- **Business-Focused Insights**  
+  Designed to highlight meaningful operational patterns, such as sales performance, customer satisfaction, and product quality relationships.
+
+- **Unified Analytics Experience**  
+  Combines structured dashboard exploration with AI-driven question answering in a single application.
 
 ## Dashboard Preview
 
-![Dashboard View](InsightForce%20Chart.png)  
-*Sales and customer satisfaction visualization.*
+![Dashboard View](InsightForce%20Chart.png)
 
-## AI Interaction
+*Example dashboard view showing business performance and customer satisfaction trends.*
 
-![AI Chatbot](InsightForce%20Chatbot.png)  
-*Example of the AI assistant identifying a quality gap between products.*
+## AI Assistant Preview
+
+![AI Chatbot](InsightForce%20Chatbot.png)
+
+*Example of the AI assistant identifying a potential quality gap between products.*
 
 ## Tech Stack
 
-- **Language:** Python
-- **Frameworks / Libraries:** LangChain, Streamlit, Pandas, Matplotlib, Seaborn
-- **LLM Integration:** OpenAI API
+- **Programming Language:** Python
+- **Frontend / App Framework:** Streamlit
+- **AI / LLM Framework:** LangChain
+- **LLM Provider:** OpenAI API
+- **Data Tools:** Pandas, Matplotlib, Seaborn
 - **Environment Management:** Conda
 
 ## How It Works
 
 1. Business data is loaded and prepared for analysis.
-2. The dashboard displays key metrics and visualizations in Streamlit.
-3. Relevant business context is organized for retrieval.
-4. A LangChain-based assistant uses retrieved context plus an OpenAI model to answer user questions.
-5. Users can explore both visual and conversational insights in one interface.
+2. Key metrics and trends are displayed through interactive dashboard components.
+3. Relevant business context is structured for retrieval.
+4. User questions are routed through a LangChain workflow.
+5. Retrieved context is passed to the OpenAI model to generate grounded responses.
+6. Users gain insights through both visual analysis and conversational interaction.
 
 ## What I Built
 
 In this project, I:
-- Developed an interactive BI dashboard in Streamlit
-- Integrated an AI assistant using LangChain and OpenAI APIs
-- Structured business data for question-answering workflows
-- Combined visualization and conversational AI into a single user experience
-- Explored how RAG can improve business data interpretation
 
-## How to Run
+- Developed an interactive business intelligence dashboard using Streamlit
+- Integrated a conversational AI assistant using LangChain and OpenAI
+- Structured data to support retrieval-based question answering
+- Combined traditional analytics with natural-language exploration
+- Created a practical portfolio project demonstrating applied AI in business intelligence
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/jdkipp-AI/InsightForge-BI-Dashboard.git
-   cd InsightForge-BI-Dashboard
-Install dependencies
+## Installation and Setup
 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/jdkipp-AI/InsightForge-BI-Dashboard.git
+cd InsightForge-BI-Dashboard
+2. Install dependencies
 bash
 pip install -r requirements.txt
-Set your OpenAI API key
-PowerShell:
-
+3. Set your OpenAI API key
+PowerShell
 powershell
 $env:OPENAI_API_KEY="your_key_here"
-Launch the app
-
+Mac/Linux
+bash
+export OPENAI_API_KEY="your_key_here"
+4. Run the application
 bash
 streamlit run dashboard.py
-Future Improvements
-Add support for additional datasets
-Improve prompt handling and response grounding
-Expand dashboard filtering and interactivity
-Strengthen evaluation of AI-generated insights
-Purpose
-This project was created as part of my applied AI portfolio and reflects my interest in combining business intelligence, data analysis, and LLM-powered tools in practical workflows.
+Future Enhancements
+Add support for additional datasets and business domains
+Improve prompt design and response grounding
+Expand dashboard filters and interactive controls
+Strengthen evaluation of AI-generated business insights
+Improve scalability and modularity of the application architecture
+Why This Project Matters
+InsightForge reflects the growing role of generative AI in analytics and decision support. Rather than replacing dashboards, this project shows how AI can extend them by making business data easier to explore, interpret, and act on.
+
+This project was created as part of my applied AI portfolio and highlights my interest in building practical tools at the intersection of data analytics, business intelligence, and large language models.
