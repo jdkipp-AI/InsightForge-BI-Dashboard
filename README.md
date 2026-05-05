@@ -145,3 +145,4 @@ Why This Project Matters
 InsightForge reflects the growing role of generative AI in analytics and decision support.
 This project was created as part of an applied AI portfolio and highlights an interest in
 building practical, real-world AI solutions.
+---
