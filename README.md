@@ -47,46 +47,12 @@ creating a unified analytics experience.
 
 ## Tech Stack
 
-|
- Category 
-|
- Technology 
-|
-|
----
-|
----
-|
-|
- Programming Language 
-|
- Python 
-|
-|
- Frontend / App Framework 
-|
- Streamlit 
-|
-|
- AI / LLM Framework 
-|
- LangChain 
-|
-|
- LLM Provider 
-|
- OpenAI API 
-|
-|
- Data Tools 
-|
- Pandas, Matplotlib, Seaborn 
-|
-|
- Environment Management 
-|
- Conda 
-|
+- **Programming Language:** Python
+- **Frontend / App Framework:** Streamlit
+- **AI / LLM Framework:** LangChain
+- **LLM Provider:** OpenAI API
+- **Data Tools:** Pandas, Matplotlib, Seaborn
+- **Environment Management:** Conda
 
 ---
 
