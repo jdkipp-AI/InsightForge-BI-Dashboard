@@ -1,4 +1,4 @@
-md
+```md
 # InsightForge BI Dashboard
 
 InsightForge is an AI-powered business intelligence dashboard that combines traditional data visualization with a Retrieval-Augmented Generation (RAG) assistant. The project is designed to help users explore business performance data through both charts and natural language interaction.
