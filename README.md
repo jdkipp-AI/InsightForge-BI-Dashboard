@@ -34,19 +34,26 @@ creating a unified analytics experience.
 
 ---
 
-## Dashboard Preview
+## Application in Action
 
-![Dashboard Preview](InsightForge_Chart.png)
+### Launching the Application
+The application runs locally via Streamlit on a Conda managed environment.
 
-Example dashboard view showing business performance and customer satisfaction trends.
+![Conda Launch](InsightForge_Conda.png)
 
 ---
 
-## AI Assistant Preview
+### Dashboard View
+Example dashboard view showing business performance and customer satisfaction trends.
+
+![Dashboard Preview](InsightForge_Chart.png)
+
+---
+
+### AI Assistant View
+Example of the AI assistant identifying a potential quality gap between products.
 
 ![AI Assistant Preview](InsightForge_Chatbot.png)
-
-Example of the AI assistant identifying a potential quality gap between products.
 
 ---
 
